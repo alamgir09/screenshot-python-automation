@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import os 
 import shutil
 import glob
@@ -6,9 +8,9 @@ desktop_path = os.path.expanduser('~/Desktop')
 screenshots_folder = os.path.expanduser('~/Desktop/Screenshots')
 
 
-# Create Screenshots folder if doesn't exist
-if not os.path.exists(screenshots_folder):
-    os.makedirs(screenshots_folder)
+# # Create Screenshots folder if doesn't exist
+# if not os.path.exists(screenshots_folder):
+#     os.makedirs(screenshots_folder)
 
 # Pattern for screen shots
 pattern = "Screen Shot *"

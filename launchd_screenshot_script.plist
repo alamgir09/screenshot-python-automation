@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>launchd.screenshot.script</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/mohammedalamgir/Desktop/non-school-CS/Screenshot-Automation-Script/screenshot-python-automation/automation.py </string>
+    </array>
+
+    <key>StartInterval</key>
+    <integer>60</integer>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/launchd.screenshot.script.err</string>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/launchd.screenshot.script.out</string>
+
+</dict>
+</plist>
